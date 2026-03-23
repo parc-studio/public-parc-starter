@@ -1,39 +1,40 @@
 /* variables.css — Design tokens */
-/* Change these to reskin the entire app */
+/* Keep token names generic so this starter can be reused across projects. */
+/* Replace values freely, and delete tokens that become unused after cleanup. */
 
 :root {
   /* -- colors -- */
-  --color-bg: #fafafa;
-  --color-surface: #ffffff;
-  --color-text: #1a1a1a;
-  --color-text-muted: #717171;
-  --color-primary: #2563eb;
-  --color-primary-hover: #1d4ed8;
-  --color-border: #e2e2e2;
+  --surface-0: #fafafa;
+  --surface-1: #ffffff;
+  --ink-strong: #1a1a1a;
+  --ink-muted: #717171;
+  --accent-0: #2563eb;
+  --accent-1: #1d4ed8;
+  --line-0: #e2e2e2;
 
   /* -- spacing -- */
-  --space-xs: 0.25rem;
-  --space-sm: 0.5rem;
-  --space-md: 1rem;
-  --space-lg: 1.5rem;
-  --space-xl: 2rem;
-  --space-2xl: 3rem;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2rem;
+  --space-6: 3rem;
 
   /* -- typography -- */
-  --font-sans: system-ui, -apple-system, sans-serif;
-  --font-mono: ui-monospace, 'Cascadia Code', 'Fira Code', monospace;
-  --text-sm: 0.875rem;
-  --text-base: 1rem;
-  --text-lg: 1.25rem;
-  --text-xl: 1.5rem;
-  --text-2xl: 2rem;
+  --font-body: system-ui, -apple-system, sans-serif;
+  --font-code: ui-monospace, "Cascadia Code", "Fira Code", monospace;
+  --font-size-1: 0.875rem;
+  --font-size-2: 1rem;
+  --font-size-3: 1.25rem;
+  --font-size-4: 1.5rem;
+  --font-size-5: 2rem;
 
   /* -- borders -- */
-  --radius-sm: 0.25rem;
-  --radius-md: 0.5rem;
-  --radius-lg: 0.75rem;
+  --radius-1: 0.25rem;
+  --radius-2: 0.5rem;
+  --radius-3: 0.75rem;
 
   /* -- shadows -- */
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
-  --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-2: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
