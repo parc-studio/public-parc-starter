@@ -1,0 +1,45 @@
+/* layout.css — Page layout and structural utilities */
+
+body {
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--space-lg);
+  gap: var(--space-xl);
+}
+
+/* -- site-header -- */
+.site-header {
+  text-align: center;
+  padding: var(--space-xl) 0;
+}
+
+.site-title {
+  font-size: var(--text-2xl);
+  font-weight: 700;
+}
+
+.site-subtitle {
+  color: var(--color-text-muted);
+  font-size: var(--text-lg);
+}
+
+/* -- site-main -- */
+.site-main {
+  width: 100%;
+  max-width: 40rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+/* -- site-footer -- */
+.site-footer {
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+  padding: var(--space-lg) 0;
+}
